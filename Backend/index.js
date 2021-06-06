@@ -12,7 +12,7 @@ const { db } = require('./models/User');
 const app = express();
 
          // Database
-mongoose.connect('mongodb+srv://nivaskambhampati1998:nivvy999@cluster0.ba7zc.mongodb.net/web-stask',{
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.ba7zc.mongodb.net/web-stask',{
       useNewUrlParser: true,
       useCreateIndex: true,
       useUnifiedTopology: true
